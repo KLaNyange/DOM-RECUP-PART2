@@ -1,9 +1,12 @@
-//?Exo1 //?Exo2
-let titreNiv3 = document.getElementsByTagName("div")[0].firstElementChild
-console.log(titreNiv3); 
+//?Exo1 
+let h3 = document.getElementsByTagName("div")[0].firstElementChild
+console.log(h3); 
+//?Exo2
+let titreNiv3 = document.getElementsByTagName("h3")[1]
+console.log(titreNiv3);
 
 //?Exo3
-let div = titreNiv3.parentElement
+let div = titreNiv3.previousElementSibling
 console.log(div);
 
 //?Exo4
